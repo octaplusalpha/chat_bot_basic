@@ -44,7 +44,7 @@ def chat_bot(knowledge: dict):
 if __name__ == '__main__':
     brain: dict = {'hello': 'hi, im Bobbot',
                    'hi': 'Hello I am Bobbot, what can i do for you today?',
-                   'what time is it': f'The time is {tell_time()}',
+                   'what time is it': f'The time is {tell_time()}.',
                    'thank you': 'You are welcome.',
                    'what day is it': f'Today is {tell_day()}'}
 
